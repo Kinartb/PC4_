@@ -1,5 +1,34 @@
 ## Pregunta 1
 
+Nos piden crear el comando Grep en JacaScrip, una vez creado realizamos las siguientes configuraciones para su ejecucion.
+
+Otorgamos el permiso de ejecucion en la cmd de ubuntu `chmod +x grep.js` y para sus funcionalidades realizamos segun queremos cromprobar. EJM:
+
+
+ara buscar la cadena "texto" en el archivo "archivo.txt" y mostrar las líneas coincidentes:
+
+```
+./grep.js texto archivo.txt
+```
+
+Para buscar la cadena "texto" en varios archivos y mostrar las líneas coincidentes con números de línea:
+
+```
+./grep.js texto -n archivo1.txt archivo2.txt
+```
+
+Para buscar la cadena "texto" de manera insensible a mayúsculas y minúsculas en un solo archivo:
+
+```
+./grep.js texto -i archivo.txt
+```
+
+Para buscar la cadena "texto" en varios archivos y mostrar solo los nombres de los archivos que contienen coincidencias:
+
+```
+./grep.js texto -l archivo1.txt archivo2.txt
+```
+
 ## Pregunta 2
      
 Diseña 2 clases, una llamada "Pokemon" y otra llamada "Charizard". Las clases deben hacer lo siguiente:
