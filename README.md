@@ -36,4 +36,4 @@ Esta celda de encabezado se utiliza para la columna de Movie Title en una tabla 
 
 ## 5
 
-##6
+## 6
