@@ -167,11 +167,12 @@ after do
      end
 end
 ```
-
+ ¿Qué sucede en JavaScript con el DIP en este ejemplo? 
 
 En el código proporcionado en Ruby, se está utilizando la biblioteca RSpec con los bloques before y after para modificar el comportamiento de la clase Date durante las pruebas. Esto se hace mediante la creación de un alias del método today antes de las pruebas, redefiniendo temporalmente el método para devolver una fecha específica (Date.new(2020, 12, 16) en este caso), y luego restaurando el método original después de las pruebas.
 
 Este enfoque se utiliza para controlar el tiempo y simular fechas específicas durante las pruebas, lo cual es común en pruebas unitarias o de integración donde la fecha actual puede afectar el comportamiento del código.
+
 
 
 EJM de uso en JavaScrip
