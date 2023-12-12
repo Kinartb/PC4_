@@ -24,9 +24,21 @@ Para mostrar el orden con respecto a las peliculas se agrega en `app/views/movie
 ```
 Esta celda de encabezado se utiliza para la columna de Movie Title en una tabla y se resaltara para la tabla ordenando por título. Además, el enlace proporciona la funcionalidad para cambiar la clasificación por título cuando se hace clic en el.
 
+Para agregar que cambie a color amarillo escribiremos en `application.css` lo siguiente
+
+```
+  .table-striped .movie_row:hover td {
+    background-color: yellow;
+    cursor: pointer;
+  }
+
+```
+
 ![](https://github.com/Kinartb/PC4/blob/main/imagenes/pc41.png)
 
 ## 1
+
+Para agregar la barra 
 
 ## 2
 
